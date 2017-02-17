@@ -1,0 +1,8 @@
+ThermoregulationIntent {RaiseLower} the temperature of the air conditioner by {Degree} degrees
+ThermoregulationIntent {RaiseLower} the temperature of the air conditioner by {Degree} degree
+ThermoregulationIntent {RaiseLower} the temperature of the air conditioner by {Degree}
+ThermoregulationIntent {RaiseLower} the temperature of the electric air conditioner by {Degree} degrees
+ThermoregulationIntent {RaiseLower} the temperature of the electric air conditioner by {Degree} degree
+ThermoregulationIntent {RaiseLower} the temperature of the electric air conditioner by {Degree}
+ThermoregulationIntent {RaiseLower} {Degree} degrees
+ThermoregulationIntent {RaiseLower} {Degree} degree
