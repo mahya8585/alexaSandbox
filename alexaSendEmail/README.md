@@ -43,6 +43,6 @@
   - 作成したAlexa custom skillにLambda functionの arnを設定する
   - Intent SchemaやUtterancesの設定は本コードの `speechAssets` ディレクトリを参照(カスタマイズOK)
 
-- Echosim.ioなりAstlaなりから「アレクサ、エアコンの温度1度上げて」という(英語で)
-  - Raise the temperature of the air conditioner by 2 degrees
+- Echosim.ioなりAstlaなりから「アレクサ、温度1度上げて」という(英語で)
+  - Alexa, Start raise 2 degrees
   - などなどUtterancesの文章を参考に
