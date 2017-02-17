@@ -6,3 +6,7 @@ ThermoregulationIntent {RaiseLower} the temperature of the electric air conditio
 ThermoregulationIntent {RaiseLower} the temperature of the electric air conditioner by {Degree}
 ThermoregulationIntent {RaiseLower} {Degree} degrees
 ThermoregulationIntent {RaiseLower} {Degree} degree
+ThermoregulationIntent Please {RaiseLower} {Degree} degrees
+ThermoregulationIntent Please {RaiseLower} {Degree} degree
+ThermoregulationIntent {RaiseLower} {Degree} degrees please
+ThermoregulationIntent {RaiseLower} {Degree} degree please
