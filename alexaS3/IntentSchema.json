@@ -1,0 +1,70 @@
+{
+    "intents": [{
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.PauseIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.ResumeIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+        },
+        {
+            "name": "TemperetureCheckIntent",
+            "samples": [
+                "tell me the current temperature",
+                "check temperature"
+            ],
+            "slots": []
+        },
+        {
+            "name": "SwitchIntent",
+            "samples": [
+                "{replyList} ",
+                "{replyList} thank you",
+                "{replyList} thanks."
+            ],
+            "slots": [{
+                "name": "replyList",
+                "type": "replyList",
+                "samples": []
+            }]
+        }
+    ],
+    "types": [{
+        "name": "replyList",
+        "values": [{
+                "id": null,
+                "name": {
+                    "value": "yes",
+                    "synonyms": [
+                        "yes",
+                        "sure",
+                        "please"
+                    ]
+                }
+            },
+            {
+                "id": null,
+                "name": {
+                    "value": "no",
+                    "synonyms": [
+                        "no",
+                        "no thank you",
+                        "no thanks"
+                    ]
+                }
+            }
+        ]
+    }]
+}

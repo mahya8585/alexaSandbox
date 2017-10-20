@@ -1,0 +1,6 @@
+{
+    "temperature": 30,
+    "switch": {
+        "fan": false
+    }
+}
