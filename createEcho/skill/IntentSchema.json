@@ -1,0 +1,69 @@
+{
+    "intents": [{
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.PauseIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.ResumeIntent",
+            "samples": []
+        },
+        {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+        },
+        {
+            "name": "CheckIntent",
+            "samples": [
+                "伝言ある",
+                "伝言はありますか",
+                "メッセージある",
+                "メッセージはありますか",
+                "伝言を確認して",
+                "メッセージを確認して",
+                "伝言があるか確認してください",
+                "メッセージがあるか確認してください"
+            ],
+            "slots": []
+        },
+        {
+            "name": "AcceptanceIntent",
+            "samples": [
+                "伝言して",
+                "伝言を送って",
+                "メッセージを送って",
+                "メールして"
+            ],
+            "slots": []
+        },
+        {
+            "name": "ReceiveIntent",
+            "samples": [
+                "{any} "
+            ],
+            "slots": [{
+                "name": "any",
+                "type": "any",
+                "samples": []
+            }]
+        }
+    ],
+    "types": [{
+        "name": "any",
+        "values": [{
+                "id": null,
+                "name": {
+                    "value": "ぴよぴよ",
+                    "synonyms": []
+                }
+            }
+        ]
+    }]
+}
